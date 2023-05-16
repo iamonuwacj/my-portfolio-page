@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    background: grey;
+}
+#navbar{
+    position: fixed;
+    height: 75px;
+    top: 0;
+    width: 500px;
+    /* left: 0; */
+    background: salmon;
+    z-index: 1;
+    display: flex;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    margin-left: 70px;
+    list-style: none;
+    margin-top: 25px;
+}
+ul a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: white;
+    transition: .4s ease;
+    font-size: 20px;
+    /* font-weight: bold; */
+    padding: 28px 15px;
+    outline: none;
+    
+}
+ul a:hover{
+    background: blueviolet;
+}
+#logo{
+    padding: 10px;
+}
+span{
+    color: aqua ;
+}
+.contents{
+    display: grid;
+    width: 500px;
+    max-width: fit-content;
+    background: dimgrey;
+    margin-top: 75px;
+}
+/* Welcome section */
+
+#welcome-section{
+    height: 100vh;
+    background: sandybrown;
+    width: 500px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+#About{
+    margin-top: 250px;
+    font-size: 50px;
+}
+#dev{
+    font-size: 30px;
+}
+
+/* Project section */
+
+#projects{
+    width: 500px;
+    height: auto;
+    background: transparent;
+}
+#Work{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.project-tile{
+    display: block;
+    margin: 0 auto;
+}
+img{
+    width: 500px;
+    background: darkslategray;
+}
+.img-a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: darkslategray;
+    font-size: 20px;
+}
+button{
+    margin-left: 220px;
+    margin-bottom: 15px;
+    border: 1px solid darkslategray;
+}
+#profile-link{
+    background: darkslategray;
+    outline: none;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+/* footer section */
+
+footer{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    background: darkseagreen;
+}
+@media (min-width: 800px) {
+    main{
+        margin: 0 auto;
+        width: 1350px;
+        max-width: 100%;
+        height: auto;
+        background: grey;
+    }
+    #navbar{
+        position: fixed;
+        height: 75px;
+        top: 0;
+        width: 1350px;
+        /* left: 0; */
+        background: salmon;
+        z-index: 1;
+        display: flex;
+        margin: 0 auto;
+    }
+    nav ul{
+        display: flex;
+        margin-left: 900px;
+        list-style: none;
+        margin-top: 25px;
+    }
+    ul a{
+        text-decoration: none;
+        margin-left: 25px;
+        color: white;
+        transition: .4s ease;
+        font-size: 20px;
+        /* font-weight: bold; */
+        padding: 28px 15px;
+        outline: none;
+        
+    }
+    ul a:hover{
+        background: blueviolet;
+    }
+    #logo{
+        padding: 10px;
+    }
+    span{
+        color: aqua ;
+    }
+    .contents{
+        display: grid;
+        width: 1350px;
+        max-width: fit-content;
+        background: dimgrey;
+        margin-top: 75px;
+    }
+    /* Welcome section */
+    
+    #welcome-section{
+        height: 100vh;
+        background: sandybrown;
+        width: 1349px;
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    #About{
+        margin-top: 250px;
+        font-size: 50px;
+    }
+    #dev{
+        font-size: 30px;
+    }
+    
+    /* Project section */
+    
+    #projects{
+        width: 1349px;
+        height: auto;
+        background: transparent;
+    }
+    #Work{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .project-tile{
+        display: block;
+        margin: 0 auto;
+    }
+    img{
+        width: 1349px;
+        background: darkslategray;
+    }
+    .img-a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 15px;
+        background: darkslategray;
+        font-size: 20px;
+    }
+    button{
+        margin-left: 640px;
+        margin-bottom: 15px;
+        border: 1px solid darkslategray;
+    }
+    #profile-link{
+        background: darkslategray;
+        outline: none;
+        display: flex;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    
+    /* footer section */
+    
+    footer{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        /* margin-bottom: 20px; */
+        padding: 20px;
+        background: darkseagreen;
+    }
+    
+}
